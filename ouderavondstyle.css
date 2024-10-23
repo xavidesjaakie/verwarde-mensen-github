@@ -1,0 +1,363 @@
+
+#content {margin-left: 20px;}
+.top-layer a.linkhome {
+    color: rgb(214, 214, 68);
+}
+.top-layer a.link2 {
+    color: rgb(214, 214, 68);
+}
+
+.top-layer a.link3 {
+    color: rgb(214, 214, 68);
+    
+}
+
+.top-layer a.link4 {
+    color: rgb(214, 214, 68);
+    
+}
+
+
+.dropdown-content a.link5 {color: rgb(214, 214, 68);}
+.dropdown-content a.link6 {color: rgb(214, 214, 68);}
+.dropdown-content a.link7 {color: rgb(214, 214, 68);}
+.dropdown-content a.link8 {color: rgb(214, 214, 68);}
+
+
+
+.button2 { color: rgb(214, 214, 68);}
+.linkhome {text-align: left; color: rgb(214, 214, 68); }
+
+#Image1 {margin-left: 1100px; width: 250px;}
+
+body {
+    
+    background: rgb(73, 120, 162);
+    padding-top: 15px;
+    padding-left: 5px;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+
+
+
+.top-layer {
+    background-color: rgb(36, 98, 101);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#leerjaar2 { margin-top: auto;
+    color: white;
+   
+}
+
+
+.top-layer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.top-layer a.linkhome {
+    color: rgb(214, 214, 68);
+}
+.top-layer .left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.top-layer .right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: right;
+    flex-grow: 1;
+}
+.dropbtn {
+    height: 60px;
+    width: auto;
+    padding: 0 20px;
+    background-color: rgb(19, 147, 153); 
+    color: rgb(214, 214, 68); 
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(19, 147, 153); 
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; 
+    left: 0; 
+    margin-top: 5px; 
+}
+.dropdown {
+    position: relative; 
+    display: inline-block;
+}
+
+.dropdown-content {
+   
+    background-color: rgb(19, 147, 153);
+    min-width: 258px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   margin-left: -20px;
+    width: 230px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+    
+}
+#software-dropdown:hover #software-dropdown-content {
+    display: block;
+}
+
+#software-dropdown-content a {
+    background-color: rgb(19, 147, 153); 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#software-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+#begeleiding-dropdown:hover #begeleiding-dropdown-content {
+    display: block;
+}
+
+#begeleiding-dropdown-content a {
+    background-color: rgb(19, 147, 153); 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#begeleiding-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+#informatie-dropdown:hover #informatie-dropdown-content {
+    display: block;
+}
+
+#informatie-dropdown-content a {
+    background-color: rgb(19, 147, 153); 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#informatie-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.dropdown-content a {
+    background-color: rgb(19, 147, 153); 
+    color:white;
+margin-top: -5px;
+    text-decoration: none;
+    display: block;
+    text-align: center; 
+ 
+}
+
+ 
+ .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#leerjaar {
+    margin: 0; 
+  
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+
+
+#leerjaar2 {
+    margin: 0; 
+  
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+
+#leerjaar3 {
+    margin: 0; 
+  
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+
+ 
+ 
+ 
+ .flex-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     flex-direction: row-reverse;
+ }
+ .flex-item {
+    background-color: rgb(19, 147, 153);
+    padding: 20px;
+    margin: 0 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(214, 214, 68); 
+    text-align: center;
+    position: relative; 
+}
+.flex-item2 {
+    background-color: rgb(19, 147, 153);
+    padding: 20px;
+    margin: 0 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(214, 214, 68); 
+    text-align: center;
+    position: relative; 
+}
+.flex-item3 {
+    background-color: rgb(19, 147, 153);
+    padding: 20px;
+    margin: 0 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(214, 214, 68); 
+    text-align: center;
+    position: relative; 
+}
+
+
+
+.flex-item4 {
+    background-color: rgb(19, 147, 153);
+    padding: 20px;
+    margin: 0 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(214, 214, 68); 
+    text-align: center;
+    position: relative; 
+}
+.content {
+    padding-top: 120px; 
+    color: rgb(255, 255, 255);
+  
+ 
+    font-size: 20px;
+    max-width: 550px;
+margin-left: 540px;
+}
+
+#styletekst { padding-top: 120px; 
+    color: rgb(255, 255, 255);
+
+   margin-top: -130px;
+    font-size: 20px;
+    max-width: 550px;
+margin-left: 530px;}
+
+h1 {
+    font-size: 45px;
+}
+
+h3 {font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+p {
+    font-size: 25px;
+    margin: 3px;
+}
+
+#foto1 {width: 150px;height: 60px; margin-left: -35px;}
+
+ body {
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-layer { 
+
+    background-color: rgb(36, 98, 101); 
+    height: 100px; 
+    width: 100%; 
+margin-top: 110px;
+    top: 0; 
+    left: 0;
+   text-align: center;
+    display: flex; 
+  align-items: center;
+    justify-content: center; /* zorgt dat de hyperlinks horizontaal in het midden komen */
+}
+
+
+/*
+
+footer {display: flex;
+width: 100%;
+background-color: rgb(36, 98, 101); 
+padding: 2rem;
+min-height: 10vh;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+notities
+(display: flex;
+flex-direction: row;
+justify-content: space-around;
+ul maakt een lijst
+li is voor in de lijst
+li list-style: none; = geen puntjes
+
+}
